@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    width: 100vw;
+    height: 750px;
+    background-color: #E23744;
+}
+.template{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.top_description{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.top_des_left{
+    height: 300px;
+    width: 350px;
+    margin-top: 100px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_des_left > .box1{
+    height: 100px;
+    width: 400px;
+    color: white;
+    border-bottom: 1px solid rgb(208, 193, 193);
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+
+}
+.top_des_left > .box2{
+    color: white;
+    width: 600px;
+    border-bottom: 1px solid rgb(208, 193, 193);
+    font-size: 26px;
+    padding-top:10px;
+}
+.top_des_left > .box3{
+    color: white;
+    width: 400px;
+    font-size: 26px;
+}
+.top_des_right{
+    height: 548px;
+    width: 368px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px 20px 0px;
+}
+.top_des_right >.box1{
+    height: 89.6px;
+    width: 326.4px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.top_des_right >.box2{
+    height: 89.6px;
+    width: 326px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.top_des_right >.box3{
+    height: 89.6px;
+    width: 326px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.top_des_right >.box4{
+    height: 89.6px;
+    width: 326px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.offerings{
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.offerings> .box1{
+    width: 542px;
+    height: 307.2px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-left :20px;
+}
+.offerings> .box2{
+    width: 542px;
+    height: 307.2px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-left :20px;
+}
+.offerings> .box3{
+    width: 542px;
+    height: 307.2px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-left :20px;
+}
+.offerings> .box4{
+    width: 542px;
+    height: 307.2px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding-left :20px;
+}
+
