@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Login</title>
+    <link rel="stylesheet" href="./u_login.css">
+</head>
+<body>
+    <form id="form">
+        <div class="center">
+            <div class="container">
+                <div class="login">
+                    <h1>Welcome new User!!</h1>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your name" id="name" name="name">
+                    <span class="errorMessage"></span>  
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter your email-id" id="email" name="email">
+                    <span class="errorMessage"></span> 
+                </div>
+                <div>
+                    <input type="tel" placeholder="Enter your contact number" id="mob" name="mob">
+                </div>
+                <div>
+                    <input type="password" placeholder="Enter your password" id="password" name="password">
+                    <aside>Password should be at least 8 characters</aside>
+                    <span class="errorMessage"></span>
+                </div>
+                <div>
+                    <input type="password" placeholder="Confirm your password" id="confirmPassword"
+                        name="confirmPassword">
+                    <span class="errorMessage"></span>
+                </div>
+                <div class="show_pwd">
+                    <button type="button" id="togglePassword">Show password</button>
+                </div>
+                <div class="confirm">
+                    <button type="submit">Confirm</button>
+                </div>
+                <div class="cancel">
+                    <button type="reset">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="./u.login.js"></script>
+</body>
+</html>
