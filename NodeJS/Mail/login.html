@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page </title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <form action="./login.html" method="POST" id="form">
+        <div>
+            <h1 id="emoji">🐵</h1>
+        </div>
+        <div>
+            <h1>Login Form</h1>
+        </div>
+        <div>
+            <input type="email" placeholder="Enter your email-id" id="email" name="email">
+            <aside id="error1"></aside>
+        </div>
+        <div>
+            <input type="password" placeholder="Enter your password" id="pwd" name="password">
+            <aside id="error2"></aside>
+        </div>
+        <div>
+            <button type="submit" id="submit_btn" >Submit</button>
+        </div>
+        <div>
+            <button type="reset" id="reset_btn">Cancel</button>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
