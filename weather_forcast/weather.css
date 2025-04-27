@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: skyblue;
+    background-image:url("earth.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_field input{
+    padding: 10px;
+    margin-top:15%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    height: 50px;
+    width: 300px;
+    background-image: linear-gradient(to right, skyblue,white,skyblue);
+}
+.press{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-image: linear-gradient(skyblue,white);
+}
+#btn:hover{
+    background-image: linear-gradient(white,skyblue)
+}
+
+h1,h2{
+    /* border: 1px solid red; */
+    font-style: italic;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
